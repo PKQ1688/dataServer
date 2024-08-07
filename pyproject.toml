@@ -9,6 +9,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 crawlee = {extras = ["beautifulsoup", "playwright"], version = "^0.1.2"}
+python-dotenv = "^1.0.1"
+firecrawl-py = "^0.0.20"
 
 
 [build-system]

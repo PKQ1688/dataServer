@@ -23,14 +23,16 @@ async def main() -> None:
             "title": context.soup.title.string if context.soup.title else None,
         }
 
+        print(data)
+
         # Push the extracted data to the default dataset.
-        await context.push_data(data)
+        # await context.push_data(data)
 
         # Enqueue all links found on the page.
-        await context.enqueue_links()
+        # await context.enqueue_links()
 
     # Run the crawler with the initial list of URLs.
-    await crawler.run(["https://crawlee.dev"])
+    await crawler.run(["https://movie.douban.com/top250"])
 
 
 if __name__ == "__main__":
