@@ -12,6 +12,8 @@ crawlee = {extras = ["beautifulsoup", "playwright"], version = "^0.1.2"}
 python-dotenv = "^1.0.1"
 firecrawl-py = "^0.0.20"
 duckduckgo-search = "^6.2.6"
+apify-haystack = "^0.1.3"
+mem0ai = "^0.0.15"
 
 
 [build-system]
